@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    border: 1px solid #ddd; /* Feature 1: Border for sections */
+    border-radius: 8px; /* Feature 2: Rounded corners for sections */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Feature 3: Box shadow for sections */
+}
+
+iframe {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Responsive layout */
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+/* Feature 4: Hover Effects */
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Feature 5: Input and Textarea Styling */
+input, textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #555;
+}
